@@ -3,6 +3,7 @@
 
 int main()
 {
-	printf("yes");
+	char yes='d';
+	printf("Hello Worl%c", yes);
 	return 0;
 }
