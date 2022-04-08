@@ -3,12 +3,12 @@
 
 int main()
 {
-	int num1;
-	int num2;
+	double num1;
+	double num2;
 	printf("Give me the first number: ");
-	/* scanf("%d", &num1); */
+	scanf("%lf", &num1);
 	printf("Give me the second number: ");
-	scanf("%d", &num2);
-	printf("Answer: %d", num1 + num2);
+	scanf("%lf", &num2);
+	printf("Answer: %lf\n", num1 + num2);
 	return 0;
 }
