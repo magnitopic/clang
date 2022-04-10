@@ -3,14 +3,13 @@
 
 int main()
 {
-	int second = 0, first = 1, auxiliar;
-	for (int i = 1; i < 42; i++)
+	int one = 1, two = 0;
+	for (int i = 1; i < 41; i++)
 	{
-		auxiliar = second;
-		second = first + second;
-		first = auxiliar;
+		one = one + two;
+		two = one - two;
 	}
-	printf("%d", second);
+	printf("%d", one);
 
 	return 0;
 }

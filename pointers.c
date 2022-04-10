@@ -11,15 +11,15 @@ int main()
 	char *pGrade = &grade;
 
 	/* print the memory address */
-	printf("%p\n", pGrade);
+	printf("%p\n", pAge);
 	/* print the actual value by adding an * */
-	printf("%d\n", *pGrade);
+	printf("%d\n", *pAge);
 
 	/* But you can get the memory again with & */
-	printf("%p\n", &*pGrade);
+	printf("%p\n", &*pAge);
 
 	/* And you can combine these two as much as you want */
-	printf("%d\n", *&*&*&*&*pGrade);
+	printf("%d\n", *&*&*&*&*pAge);
 
 	return 0;
 }
