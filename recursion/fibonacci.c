@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-int c = 1;
-
 int	fibonacci(int num)
 {
 	if (num <= 0)
