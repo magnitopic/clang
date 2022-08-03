@@ -1,39 +1,30 @@
-#include <unistd.h>
+#include <stdio.h>
 
 void	countdown(int n)
 {
-	char	c;
-
 	if (n > 0)
 	{
-		c = n + '0';
-		write(1, &c, 1);
-		write(1, "\n", 1);
-		n--;
-		countdown(n);
+		printf("%d\n", n);
+		countdown(n - 1);
 	}
 	else
-		write(1, "See you space cowboy!\n", 22);
+		printf("See you space cowboy...\n");
 }
 
 void	countdown_improved(int n)
 {
-	char	c;
-
 	if (n == 0)
-		write(1, "See you space cowboy!\n", 22);
+		printf("See you space cowboy...\n");
 	else
 	{
-		c = n + '0';
-		write(1, &c, 1);
-		write(1, "\n", 1);
-		n--;
-		countdown_improved(n);
+		printf("%d\n", n);
+		countdown_improved(n - 1);
 	}
 }
 
 int	main(void)
 {
+	countdown(5);
 	countdown_improved(5);
 	return (0);
 }
