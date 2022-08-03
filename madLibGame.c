@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
 	char color[20];
 	char noun[20];

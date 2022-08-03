@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
 	int luckyNumbers[3];
 	luckyNumbers[2] = 3;

@@ -1,4 +1,6 @@
 *
+test.txt
+
 !*.c
 !.gitignore
-!*/*
+!*/

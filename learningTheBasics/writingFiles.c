@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+int main(void)
 {
 	/* Creating and writing the file */
 	FILE *fpointer = fopen("test.txt", "w");

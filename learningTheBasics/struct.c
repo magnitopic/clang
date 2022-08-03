@@ -8,7 +8,7 @@ struct Student
 	int age, avMark;
 };
 
-int main()
+int main(void)
 {
 	struct Student student1;
 	struct Student student2;
