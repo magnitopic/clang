@@ -1,5 +1,7 @@
 // complie with: gcc primeNumbers-SpeedTest.c -lm
-// MacBookAir M2 2022 with 10000000 - 1.273690 seconds
+// Execute time with 10000000:
+// MacBookAir M2 2022 - 1.273690 seconds
+// AMD Ryzen 7 3800XT 3.89GHz Desktop - 4.755103 seconds
 
 #include <math.h>
 #include <stdio.h>
